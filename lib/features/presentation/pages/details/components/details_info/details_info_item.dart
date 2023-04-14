@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/common/core/contants/constants.dart';
+
+import '../../../../../../common/core/contants/constants.dart';
 
 class DetailsInfoItem extends StatelessWidget {
   const DetailsInfoItem({
@@ -13,8 +14,8 @@ class DetailsInfoItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 20),
+    return SizedBox(
+      width: MediaQuery.of(context).size.width * 0.30,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.end,
