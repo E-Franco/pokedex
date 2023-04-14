@@ -1,16 +1,20 @@
-# pokedex
+# Pokédex
 
-A new Flutter project.
+Project developed in order to demonstrate technical skills.
 
-## Getting Started
+## General information
 
-This project is a starting point for a Flutter application.
+This project is a sample of how I work with Flutter. For this example I'm using:
 
-A few resources to get you started if this is your first Flutter project:
+ChangeNotifier for state management.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://pokeapi.co/ for the API.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+http library for requests.
+
+Using clean architecture for the project trying to include all the principles of SOLID.
+
+OBS: the current project still ongoing and has no date to be finished
+
+Flutter version used: 3.7.10
+Dart version used: 2.19.6
