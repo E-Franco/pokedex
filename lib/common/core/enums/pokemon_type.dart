@@ -14,6 +14,11 @@ enum PokemonType {
   poison,
   flying,
   rock,
+  fighting,
+  ice,
+  ground,
+  fairy,
+  dragon, dark,
   unknow,
 }
 
@@ -28,7 +33,7 @@ extension PokemonTypeExt on PokemonType {
         return PokemonType.water;
       case 'bug':
         return PokemonType.bug;
-      case 'eletric':
+      case 'electric':
         return PokemonType.eletric;
       case 'ghost':
         return PokemonType.ghost;
@@ -44,6 +49,18 @@ extension PokemonTypeExt on PokemonType {
         return PokemonType.flying;
       case 'poison':
         return PokemonType.poison;
+      case 'fighting':
+        return PokemonType.fighting;
+      case 'ice':
+        return PokemonType.ice;
+      case 'ground':
+        return PokemonType.ground;
+      case 'fairy':
+        return PokemonType.fairy;
+      case 'dragon':
+        return PokemonType.dragon;
+      case 'dark':
+        return PokemonType.dark;
       default:
         return PokemonType.unknow;
     }
@@ -75,6 +92,18 @@ extension PokemonTypeExt on PokemonType {
         return const Color(0xFFA891EC);
       case PokemonType.rock:
         return const Color(0xFFB69E31);
+      case PokemonType.fighting:
+        return const Color(0xFFD56723);
+      case PokemonType.ice:
+        return const Color(0xFF51C4E7);
+      case PokemonType.ground:
+        return const Color(0xFFAB9842);
+      case PokemonType.fairy:
+        return const Color(0xFFFDB9E9);
+      case PokemonType.dragon:
+        return const Color(0xFF7038F8);
+      case PokemonType.dark:
+        return const Color(0xFF705848);
       case PokemonType.unknow:
         return AppColors.primary;
     }
